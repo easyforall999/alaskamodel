@@ -1,0 +1,88 @@
+{
+"session_id":"axbc_12",								
+"date":"11-11-2020",
+"journey_type":"round_trip",								
+"personal_info":{							
+    "name":"John Doe",							
+    "DoB":"02-01-1990",							
+    "email":"Johndoe@email.com",							
+    "user_id":"jdx_1990"
+},							
+"Billing":{
+    "bill1":"visa_info",							
+    "bill2":"apple_pay",							
+    "bill3":"google_pay"	
+    },						
+"from_destination_search":"SEA",								
+"to_destination_search":"PA",								
+"onward_path":{								
+	"journey1":{
+            "jid":"xpa_212",						
+            "from_destination":"SEA",						
+            "to_destination":"PA",						
+            "journey_date":"5-25-2021",		
+            "popularity":4,				
+            "flight_duration":6.5,						
+            "distance":1123,												
+            "pricing":
+                {						
+                    "main":495,					
+                    "cabin":1200
+                }	
+        },
+	"journey2":{							
+		"jid":"xpa_1033",						
+		"from_destination":"SEA",						
+		"to_destination":"PA",						
+		"journey_date":"5-25-2021",	
+        "popularity":5,					
+		"flight_duration":7,						
+		"distance":480,						
+		"pricing":{	
+            "main":600,					
+			"cabin":1200
+            }
+        }
+        },					
+"return_path":{							
+	"journey1":{							
+		"jid":"xpa_1033",						
+		"from_destination":"PA",						
+		"to_destination":"SEA",						
+		"journey_date":"10-25-2021",
+        "popularity":3,						
+		"flight_duration":8.9,						
+		"distance":687,						
+		"pricing":{						
+		    "main":289,					
+			"cabin":1266
+            }
+        },					
+	"journey2":{							
+		"jid":"xpa_212",						
+		"from_destination":"PA",						
+		"to_destination":"SEA",						
+		"journey_date":"10-27-2021",
+        "popularity":4,						
+		"flight_duration":12.5,						
+		"distance":435,						
+		"pricing":{		    				
+			"main":227,					
+			"cabin":1129
+            }
+            }
+        },					
+"status_code":200,								
+"invoice":{							
+	"invoice_id":"zsw_1245",							
+	"onward_jid":"xpa_1033",							
+	"onward_seat_type":"main",							
+	"onward_ticket_price":600,							
+	"return_jid":"xpa_212",							
+	"return_seat_type":"cabin",							
+	"return_ticket_price":1129,							
+	"total_price":1729,							
+	"total_miles":915,							
+	"total_duration":19						
+}
+}
