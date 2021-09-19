@@ -1,0 +1,19 @@
+storing the data
+no-sql database - document db
+As this data is live stream, kafka steams can be used to store such information
+Using Psub model (publisher subscriber) is also another alternative
+
+pros and cons:
+Pros:
+- High performance: this db is highly performant than SQL db as the data is stored
+    in one database
+- Scalability: this DB is horizontally Scalabile
+- Flexibility: Flexibility in trying different datamodels in real time
+
+Cons:
+- Maturity: this db is not as mature as relational DBs, leading to less information
+    and support compared to relational DBs
+- Requires multiple databases: as this is not a complete solution for all needs
+    , team would be Required to maintain multiple databases
+- Huge databases: as data is stored in a single database, the size of database
+    is generally Huge
